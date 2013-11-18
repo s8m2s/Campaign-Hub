@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+
+        <style type="text/css">
+            /* Reset */
+            a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+            .group:before,
+            .group:after {
+                content: "";
+                display: table;
+            } 
+            .group:after {
+                clear: both;
+            }
+            .group {
+                zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+            }
+
+            .wrapper {
+                background: #eeeeee url(http://placehold.it/1200x800/dddddd) top center no-repeat;
+                min-width: 1000px;
+            }
+            .header {
+                width: 100%;
+                min-width: 1000px;
+                margin: 0 auto;
+            }
+            .main {
+                margin: 0 auto;
+                width: 1000px;
+                height: 100%;
+            }
+            .header {
+                text-align: center;
+            }
+            .col-left {
+                float: left;
+                width: 500px;
+                margin: 200px 0 25px 200px;
+                background: #ffffff;
+            }
+            .col-right {
+                float: right;
+                width: 280px;
+                margin-left: 20px;
+            }
+            .logo {
+                margin: 10px;
+            }
+            .feed li:before,
+            .feed li:after {
+                content: "";
+                display: table;
+            } 
+            .feed li:after {
+                clear: both;
+            }
+            .feed li {
+                zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+                margin: 20px 0;
+            }
+            .feed li:first-child {
+                margin-top: 0;
+            }
+
+            .post-image {
+                float: left;
+                width: 150px;
+            }
+            .post-teaser {
+                float: left;
+                width: 300px;
+                margin-left: 20px;
+            }
+            .module {
+                background: white;
+                padding: 10px;
+            }
+            .module.video {
+                padding: 5px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <a href="#"><img src="http://placehold.it/300x80&amp;text=logo" alt="" class="logo"></a>
+        </div>
+        <div class="wrapper">
+            <div class="main group">
+                <div class="col-left">
+                    <div class="video module"><img src="http://placehold.it/490x200&amp;text=video" alt=""></div>
+                    <div class="feed module group">
+                        <ul>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-image"><img src="http://placehold.it/150x100&amp;text=post-image" alt="" class="post title"></div>
+                                <div class="post-teaser">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div class="module">
+                        <div class="social-links">
+                            <a href="#"><img src="http://placehold.it/48x48&amp;text=p" alt="" class="pinterest"></a>
+                            <a href="#"><img src="http://placehold.it/48x48&amp;text=t" alt="" class="twitter"></a>
+                            <a href="#"><img src="http://placehold.it/48x48&amp;text=f" alt="" class="facebook"></a>
+                            <a href="#"><img src="http://placehold.it/48x48&amp;text=t" alt="" class="tumblr"></a>
+                        </div>
+                        <div class="social-feed"><p>the</p><p>twitter</p><p>feed</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer"></div>
+        </div>
+    </body>
+</html>
